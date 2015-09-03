@@ -11,5 +11,7 @@
     <Transaction>2015/09/02 22:46:03.686,=C:\JustCode\ORMDelphi\Main.pas</Transaction>
     <Transaction>2015/09/02 22:46:04.478,=C:\JustCode\ORMDelphi\uConnection.pas</Transaction>
     <Transaction>2015/09/02 22:46:30.428,=C:\JustCode\Exemplo\uCFG.pas</Transaction>
+    <Transaction>2015/09/02 22:53:54.176,=C:\JustCode\ORMDelphi\Unit1.pas</Transaction>
+    <Transaction>2015/09/02 22:54:13.336,C:\JustCode\ORMDelphi\uPersistentObject.pas=C:\JustCode\ORMDelphi\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>

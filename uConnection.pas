@@ -7,7 +7,7 @@ uses
   FireDAC.Stan.Error, FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def,
   FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.Phys.MSSQL,
   FireDAC.Phys.MSSQLDef, Data.DB, FireDAC.Comp.Client, Dialogs,
-  FireDAC.VCLUI.Wait, FireDAC.Comp.UI, uCFG;
+  FireDAC.VCLUI.Wait, FireDAC.Comp.UI, uCFG,SysUtils;
 
 type
   TConnection = class

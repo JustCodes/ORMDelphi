@@ -4,7 +4,7 @@ interface
 
 uses
   Rtti,StrUtils,Variants,Classes,FireDAC.Comp.Client,
-  FireDAC.VCLUI.Wait, FireDAC.DApt, uConnection, uAtrib;
+  FireDAC.VCLUI.Wait, FireDAC.DApt, uConnection, uAtrib,SysUtils;
 
 type
   TPersintentObject = class

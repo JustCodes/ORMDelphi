@@ -5,7 +5,8 @@ uses
   Main in 'Main.pas' {fmMain},
   uAtrib in 'uAtrib.pas',
   uConnection in 'uConnection.pas',
-  uCFG in '..\Exemplo\uCFG.pas';
+  uCFG in '..\Exemplo\uCFG.pas',
+  uPersistentObject in 'uPersistentObject.pas';
 
 {$R *.res}
 
