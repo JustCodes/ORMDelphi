@@ -2,14 +2,16 @@ program Orm;
 
 uses
   Vcl.Forms,
-  Unit1 in 'Unit1.pas' {Form1},
-  uAtrib in 'uAtrib.pas';
+  Main in 'Main.pas' {fmMain},
+  uAtrib in 'uAtrib.pas',
+  uConnection in 'uConnection.pas',
+  uCFG in '..\Exemplo\uCFG.pas';
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TfmMain, fmMain);
   Application.Run;
 end.
