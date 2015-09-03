@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/03/12 20:47:49.000.191,=C:\Users\Derkoski\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/09/01 22:28:20.388,=C:\Users\Derkoski\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/09/01 22:28:25.565,=C:\Users\Derkoski\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2015/09/01 22:29:00.161,C:\JustCode\Exemplo 1\uAtrib.pas=C:\Users\Derkoski\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2015/09/01 22:29:06.984,C:\JustCode\Exemplo 1\Unit1.dfm=C:\Users\Derkoski\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2015/09/01 22:29:06.984,C:\JustCode\Exemplo 1\Unit1.pas=C:\Users\Derkoski\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/09/01 22:29:16.131,C:\JustCode\Exemplo 1\Orm.dproj=C:\Users\Derkoski\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
