@@ -23,7 +23,6 @@ type
     Update: TButton;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
-    procedure UpdateClick(Sender: TObject);
   private
     { Private declarations }
      FCliente: TCliente;
@@ -67,18 +66,6 @@ begin
     edtCpf.Text := CnpjCpf;
     edtEndereco.Text := Endereco;
     edtCEP.Text := Cep;
-  end;
-end;
-
-procedure TfmMain.UpdateClick(Sender: TObject);
-begin
-  with FCliente do
-  begin
-    Nome := edtNome.Text;
-    CnpjCpf := edtCpf.Text;
-    Endereco := edtEndereco.Text;
-    Cep := edtCEP.Text;
-    Update;
   end;
 end;
 

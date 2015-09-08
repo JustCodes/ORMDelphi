@@ -92,7 +92,6 @@ object fmMain: TfmMain
     Height = 25
     Caption = 'Load'
     TabOrder = 5
-    OnClick = Button2Click
   end
   object edtID: TEdit
     Left = 352
@@ -108,6 +107,5 @@ object fmMain: TfmMain
     Height = 25
     Caption = 'Update'
     TabOrder = 7
-    OnClick = UpdateClick
   end
 end

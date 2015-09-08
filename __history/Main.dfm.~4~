@@ -108,6 +108,5 @@ object fmMain: TfmMain
     Height = 25
     Caption = 'Update'
     TabOrder = 7
-    OnClick = UpdateClick
   end
 end

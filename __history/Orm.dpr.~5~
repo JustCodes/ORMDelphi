@@ -6,8 +6,7 @@ uses
   uAtrib in 'uAtrib.pas',
   uConnection in 'uConnection.pas',
   uPersistentObject in 'uPersistentObject.pas',
-  uCFG in 'uCFG.pas',
-  uClientes in 'uClientes.pas';
+  uCFG in 'uCFG.pas';
 
 {$R *.res}
 

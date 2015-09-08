@@ -81,8 +81,9 @@
         </DCCReference>
         <DCCReference Include="uAtrib.pas"/>
         <DCCReference Include="uConnection.pas"/>
-        <DCCReference Include="..\Exemplo\uCFG.pas"/>
         <DCCReference Include="uPersistentObject.pas"/>
+        <DCCReference Include="uCFG.pas"/>
+        <DCCReference Include="uClientes.pas"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>

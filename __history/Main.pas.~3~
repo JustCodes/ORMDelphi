@@ -22,8 +22,6 @@ type
     Label5: TLabel;
     Update: TButton;
     procedure Button1Click(Sender: TObject);
-    procedure Button2Click(Sender: TObject);
-    procedure UpdateClick(Sender: TObject);
   private
     { Private declarations }
      FCliente: TCliente;
@@ -53,32 +51,6 @@ begin
     end;
   finally
     Free;
-  end;
-end;
-
-procedure TfmMain.Button2Click(Sender: TObject);
-begin
-  if not Assigned(FCliente) then
-    FCliente := TCliente.Create;
-  FCliente.Load(StrToIntDef(edtID.Text,0));
-  with FCliente do
-  begin
-    edtNome.Text := Nome;
-    edtCpf.Text := CnpjCpf;
-    edtEndereco.Text := Endereco;
-    edtCEP.Text := Cep;
-  end;
-end;
-
-procedure TfmMain.UpdateClick(Sender: TObject);
-begin
-  with FCliente do
-  begin
-    Nome := edtNome.Text;
-    CnpjCpf := edtCpf.Text;
-    Endereco := edtEndereco.Text;
-    Cep := edtCEP.Text;
-    Update;
   end;
 end;
 
