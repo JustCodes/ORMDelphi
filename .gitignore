@@ -5,3 +5,4 @@ __history/Orm.dpr.~3~
 Win32/Debug/Orm.exe
 *.~2~
 *.ini
+*.identcache
