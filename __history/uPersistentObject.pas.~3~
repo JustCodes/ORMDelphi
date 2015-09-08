@@ -214,53 +214,8 @@ begin
 end;
 
 function TPersintentObject.Update: Boolean;
-var
-  Ctx: TRttiContext;
-  RTT: TRttiType;
-  RTP: TRttiProperty;
-  Att: TCustomAttribute;
-  SQL,
-  Field,
-  Where,
-  Error: String;
 begin
-  Field := '';
-  Ctx := TRttiContext.Create;
-  try
-    RTT := CTX.GetType(ClassType);
-    for Att in RTT.GetAttributes do
-    begin
-      if Att is TableName then
-        SQL := 'UPDATE ' + TableName(ATT).Name + ' SET';
-    end;
 
-    for RTP in RTT.GetProperties do
-    begin
-       for Att in RTP.GetAttributes do
-       begin
-         if Att is FieldName then
-         begin
-           if (not (FieldName(ATT).AutoInc)) and (not (FieldName(ATT).PK)) then {Auto incremento não pode entrar no update}
-           begin
-             Field := Field + FieldName(ATT).Name + ' = ' + GetValue(RTP,FieldName(ATT).FK) + ',';
-           end
-           else if (FieldName(ATT).PK) then
-             Where := Where + Ifthen(Trim(where)='','',' AND ') + FieldName(ATT).Name + ' = ' + GetValue(RTP,FieldName(ATT).FK);
-         end;
-       end;
-    end;
-
-    Field := Copy(Field,1,Length(Field)-1);
-    SQL := SQL + ' ' + Field + ' WHERE ' + Where;
-    if Trim(CustomSQL) <> '' then
-      SQL := CustomSQL;
-    Result := TConnection.GetInstance.Execute(SQL,Error);
-    if not Result then
-      raise Exception.Create(Error);
-  finally
-    CustomSQL := '';
-    CTX.Free;
-  end;
 end;
 
 end.
